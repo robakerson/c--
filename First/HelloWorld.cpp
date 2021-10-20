@@ -3,9 +3,14 @@ using namespace std;
 
 int main(){
 
-    float annualSalary = 50000.99;
+    // Declare float
+    float annualSalary;
+    // Console in and assign to annualSalary
+    cout << "Please enter your annual salary:";
+    cin >> annualSalary;
     float monthlySalary = annualSalary / 12;
-    cout<<"Your monthly salary is" << monthlySalary;
+    // console out
+    cout << "Your monthly salary is " << monthlySalary;
 
 
     return 0;
